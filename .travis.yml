@@ -3,7 +3,5 @@ arch:
   - amd64
 os: linux
 language: python
-python:
-  - "2.7"
 install: skip
 script: python ./src/hello.py
