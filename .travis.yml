@@ -1,7 +1,5 @@
-arch:
-  - arm64
-  - amd64
 os: linux
+virt: lxd
 language: python
 install: skip
 script: python ./src/hello.py
